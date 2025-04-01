@@ -26,8 +26,18 @@ Ao longo do curso, esta seção será atualizada com os principais aprendizados,
 
 
 ### Semana 1
+Informações gerais e planejamento do curso
+
+### Semana 2
+Foi uma semana muito enriquecedora que permitiu expandir minha rede de contatos. Conheci colegas excelentes durante o coffee break, o edifício vértice e estive na UNICAMP pela primeira vez.
+
+### Semana 3
+Durante a terceira semana tive a oportunidade de apresentar meu projeto que me permitiu avançar para a segunda fase do EMBARCATECH, treinar minha oratória e rever conceitos.
+
+### Semana 4
+O destaque foram conhecimentos relacionados ao git e github e ideias de projetos que obtive em conversa com colegas. Foco para chaves SSH e GPG, autenticação de commits.
 
 
 ## Licença
 
-MIT License ou GPL-3.0
+ GPL-3.0
