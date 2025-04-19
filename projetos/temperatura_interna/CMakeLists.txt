@@ -35,7 +35,9 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(Temperatura Temperatura.c )
+add_executable(Temperatura 
+    Temperatura.c 
+    inc/ssd1306_i2c.c)
 
 pico_set_program_name(Temperatura "Temperatura")
 pico_set_program_version(Temperatura "0.1")
@@ -55,7 +57,6 @@ target_include_directories(Temperatura PRIVATE
 
 # Add any user requested libraries
 target_link_libraries(Temperatura 
-        pico_stdlib
         hardware_adc
         hardware_i2c
         )
