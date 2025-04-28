@@ -16,7 +16,13 @@ Cada projeto tem sua própria pasta, contendo o código-fonte, documentação e 
 
 | Projeto | Descrição |
 |---------|-----------|
+| [Arquitetura Modular](./projetos/arquitetura_modular/) | Código que tem por objetivo praticar a modularização do código e camadas de abstração. Uso do recurso hal para piscar um led. |
+|[Contador Decrescente](./projetos/contador_decrescente/) | Código responsável por gerar interrupção e timer pool para controle de contadores acionados por botões (A e B). |
+| [Joystick](./projetos/joystick/) | Código para manipulação do joystick utilizando recursos como ADC para ler posição exata. |
 | [Sistema de Resfriamento](./projetos/sistema_resfriamento/) | Circuito que utiliza o sensor de temperatura onboard da RP2040, display OLED, Buzzers e Fan externo para realizar o monitoramento e controle da temperatura. |
+|[Temperatura Interna](./projetos/temperatura_interna/) | Código que gerencia medições constantes de temperatura por meio do sensor onboard da RP2040. |
+
+
 
 
 
