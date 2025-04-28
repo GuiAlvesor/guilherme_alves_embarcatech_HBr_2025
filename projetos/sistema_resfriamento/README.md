@@ -51,7 +51,7 @@ Monitorar de forma precisa e controlar a temperatura e sua variação usando:
 ## 🖼️ Imagens do Projeto
 
 ### Matriz de LEDs durante execução
-![sistema_resfriamento](./assets/images/sistema_resfriamento.jpg)
+![sistema_resfriamento](./assets/images/Foto_projeto_resfriamento.jpg)
 
 
 ## 📜 Licença
