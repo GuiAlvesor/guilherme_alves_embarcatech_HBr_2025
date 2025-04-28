@@ -43,6 +43,14 @@ Durante a terceira semana tive a oportunidade de apresentar meu projeto que me p
 ### Semana 4
 O destaque foram conhecimentos relacionados ao git e github e ideias de projetos que obtive em conversa com colegas. Foco para chaves SSH e GPG, autenticação de commits.
 
+### Semana 5
+Realizamos uma visita ao Instituto Hardware Brasil (HBR) e a Faculdade de Engenharia Elétrica e de Computação (FEEC) no polo tecnológico da UNICAMP. Conhecemos inúmeros projetos disruptivos de alta complexidade referentes as mais diversas áreas, desde saúde, acessibilidade, IoT, e muitos mais. O instituto é inspirador e respeitável, inspira vontade de contribuir e melhorar sempre. A faculdade de engenharia tem diversosr laboratórios conduzindo pesquisas interessantes e com alto potencial, o ambiente é muito agradável.
+
+### Semana 6
+Não houve encontro semanal devido ao feriado nacional.
+
+### Semana 7
+Aprofundamos o conhecimento quanto ao hal (Hardware Abstraction Layer) e seu impacto na aplicação e drivers. Um recurso poderoso de alto nível.
 
 ## Licença
 
