@@ -43,7 +43,7 @@ Unity/unity.c )
 pico_set_program_name(TesteUnitarioADC "TesteUnitario")
 pico_set_program_version(TesteUnitarioADC "0.1")
 
-set(UNITY_DIR${CMAKE_SOURCE_DIR}/Unity);
+set(UNITY_DIR${CMAKE_SOURCE_DIR}/Unity)
 
 # Modify the below lines to enable/disable output over UART/USB
 pico_enable_stdio_uart(TesteUnitarioADC 0)
