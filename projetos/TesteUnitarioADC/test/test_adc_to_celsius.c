@@ -21,6 +21,7 @@ void test_adc_to_celsius_with_known_value(void) {
 
 int main(void) {
     stdio_init_all();
+<<<<<<< HEAD
 
     // Aguarda a USB ficar disponível
     sleep_ms(2000);
@@ -35,3 +36,13 @@ int main(void) {
 
     return 0;
 }
+=======
+    sleep_ms(2000);
+    UNITY_BEGIN();
+    RUN_TEST(test_adc_to_celsius_with_known_value);
+    UNITY_END();
+    while(true) {
+        tight_loop_contents();
+    }
+}
+>>>>>>> 3d64982fdf3e6747d2605933fa652b08bf641322
