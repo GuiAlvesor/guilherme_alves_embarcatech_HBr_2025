@@ -1,5 +1,6 @@
 #include "../drivers/adc_to_celsius.h"
 #include "../Unity/unity.h"
+#include "pico/stdlib.h"
 
 //float adc_to_celsius(uint16_t adc_val);
 void setUp(void);
@@ -16,4 +17,21 @@ void test_adc_to_celsius_with_known_value(void) {
     float temp = adc_to_celsius(adc_val);
 
     TEST_ASSERT_FLOAT_WITHIN(0.5f, expected_temp, temp);
+}
+
+int main(void) {
+    stdio_init_all();
+
+    // Aguarda a USB ficar disponível
+    sleep_ms(2000);
+
+    UNITY_BEGIN();
+    RUN_TEST(test_adc_to_celsius_with_known_value);
+    UNITY_END();
+
+    while (true) {
+        tight_loop_contents(); // mantém a USB ativa
+    }
+
+    return 0;
 }

@@ -38,7 +38,6 @@ pico_sdk_init()
 add_executable(TesteUnitarioADC 
 app/main.c
 drivers/adc_to_celsius.c
-test/test_adc_to_celsius.c
 Unity/unity.c )
 
 pico_set_program_name(TesteUnitarioADC "TesteUnitario")
@@ -66,5 +65,30 @@ target_link_libraries(TesteUnitarioADC
 
 pico_add_extra_outputs(TesteUnitarioADC)
 
+set(UNITY_DIR ${CMAKE_SOURCE_DIR}/Unity)
 
+# Adiciona um executável para os testes unitários
+add_executable(test_adc_to_celsius
+    test/test_adc_to_celsius.c
+    drivers/adc_to_celsius.c
+    Unity/unity.c
+)
+
+pico_enable_stdio_usb(test_adc_to_celsius 1)
+pico_enable_stdio_uart(test_adc_to_celsius 0)
+
+
+# Inclui headers do projeto e da Unity
+target_include_directories(test_adc_to_celsius PRIVATE
+    ${CMAKE_CURRENT_LIST_DIR}/Unity
+    ${UNITY_DIR}/drivers
+)
+
+# Liga as bibliotecas necessárias
+target_link_libraries(test_adc_to_celsius
+    pico_stdlib
+    hardware_adc
+)
+
+pico_add_extra_outputs(test_adc_to_celsius)
 
