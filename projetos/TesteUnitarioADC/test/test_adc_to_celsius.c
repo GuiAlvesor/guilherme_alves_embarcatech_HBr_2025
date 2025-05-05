@@ -17,3 +17,14 @@ void test_adc_to_celsius_with_known_value(void) {
 
     TEST_ASSERT_FLOAT_WITHIN(0.5f, expected_temp, temp);
 }
+
+int main(void) {
+    stdio_init_all();
+    sleep_ms(2000);
+    UNITY_BEGIN();
+    RUN_TEST(test_adc_to_celsius_with_known_value);
+    UNITY_END();
+    while(true) {
+        tight_loop_contents();
+    }
+}
