@@ -4,9 +4,8 @@
 #include "hardware/timer.h"
 #include "hardware/gpio.h"
 #include "pico/time.h"
-
-#include "ssd1306.h"
-#include "ssd1306_i2c.h"
+#include "inc/ssd1306.h"
+#include "inc/ssd1306_i2c.h"
 
 #define I2C_PORT i2c1
 #define SDA_PIN 14
