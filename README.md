@@ -21,7 +21,7 @@ Cada projeto tem sua própria pasta, contendo o código-fonte, documentação e 
 | [Joystick](./projetos/joystick/) | Código para manipulação do joystick utilizando recursos como ADC para ler posição exata. |
 | [Sistema de Resfriamento](./projetos/sistema_resfriamento/) | Circuito que utiliza o sensor de temperatura onboard da RP2040, display OLED, Buzzers e Fan externo para realizar o monitoramento e controle da temperatura. |
 |[Temperatura Interna](./projetos/temperatura_interna/) | Código que gerencia medições constantes de temperatura por meio do sensor onboard da RP2040. |
-|[Temperatura Interna](./projetos/galton_board/) |Esse projeto implementa uma simulação digital de uma galton board utilizando um display Oled 128x64 |
+|[Galton Board](./projetos/galton_board/) |Esse projeto implementa uma simulação digital de uma galton board utilizando um display Oled 128x64 |
 
 
 
