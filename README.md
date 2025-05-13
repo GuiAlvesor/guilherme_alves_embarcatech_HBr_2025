@@ -21,7 +21,7 @@ Cada projeto tem sua própria pasta, contendo o código-fonte, documentação e 
 | [Joystick](./projetos/joystick/) | Código para manipulação do joystick utilizando recursos como ADC para ler posição exata. |
 | [Sistema de Resfriamento](./projetos/sistema_resfriamento/) | Circuito que utiliza o sensor de temperatura onboard da RP2040, display OLED, Buzzers e Fan externo para realizar o monitoramento e controle da temperatura. |
 |[Temperatura Interna](./projetos/temperatura_interna/) | Código que gerencia medições constantes de temperatura por meio do sensor onboard da RP2040. |
-
+|[Temperatura Interna](./projetos/galton_board/) |Esse projeto implementa uma simulação digital de uma galton board utilizando um display Oled 128x64 |
 
 
 
@@ -51,6 +51,12 @@ Não houve encontro semanal devido ao feriado nacional.
 
 ### Semana 7
 Aprofundamos o conhecimento quanto ao hal (Hardware Abstraction Layer) e seu impacto na aplicação e drivers. Um recurso poderoso de alto nível.
+
+### Semana 8
+Foi disuctido e apresentada uma proposta para elaboração de uma Galton Board, um tabuleiro que demonstra a distribuição normal e padrões probabilísticos de resultados gerados por eventos aleatórios (quando o espaço amostral é grande), que geram um padrão predominante de gráfico.
+
+### Semana 9
+O tema da IoT, sustentabilidade, portocolos de transmissão de dados (MQTT, UDP, etc) , os sinais de rádio (Wifi, Bluetooth, LoRa, entre outros).
 
 ## Licença
 
